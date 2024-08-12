@@ -1,5 +1,6 @@
-# 📚 Projeto_ATP: Amanhã Tem Prova!!!
+# 📚 Projeto ATP: Amanhã Tem Prova!!!
 Projeto da disciplina de Engenharia de Software 2024.1 UFRPE
+
 [![ATP](https://img.shields.io/badge/EduApp-Educational-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow)]()
