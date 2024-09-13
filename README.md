@@ -5,9 +5,6 @@ Projeto da disciplina de Engenharia de Software 2024.1 UFRPE
 [![License](https://img.shields.io/badge/license-OpenSource-green)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow)]()
 
-<p align="center">
-  <img src="https://via.placeholder.com/150" alt="ATP Logo" width="150"/>
-</p>
 
 ## 🌟 Visão Geral
 
@@ -23,9 +20,7 @@ O "Amanhã Tem Prova!!!" ou ATP é um projeto de aplicação de software educaci
 Selecione um assunto: Escolha entre Matemática, Física, Química, Biologia, e outros.
 Assista às videoaulas: Aprenda conceitos-chave de forma rápida e eficiente.
 Resolva questões: Aplique o que aprendeu resolvendo questões relacionadas ao tema estudado.
-<p align="center">
-  <img src="https://via.placeholder.com/300x600" alt="Screenshot do EduApp" width="300"/>
-</p>
+
 🛠️ Contribuição
 Estamos abertos a contribuições! Se você tem ideias, correções ou novas funcionalidades, sinta-se à vontade para fazer um fork do projeto e abrir um pull request.
 
