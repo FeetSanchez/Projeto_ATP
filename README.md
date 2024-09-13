@@ -43,7 +43,7 @@ Este projeto é OpenSource.
 A toda a equipe de desenvolvimento e conteúdo.
 Ferramentas e bibliotecas de código aberto que tornam este projeto possível.
 <p align="center">
-  <img src="https://via.placeholder.com/600x200" alt="Imagem Inspiradora" width="600"/>
+  <img src="https://drive.google.com/file/d/1F9yFoUwmQ-zz1F6yOA1DbrNaznv35chJ/view?usp=drive_link" alt="Imagem Inspiradora" width="600"/>
 </p>
 <p align="center">
   Feito com ❤️ por --
