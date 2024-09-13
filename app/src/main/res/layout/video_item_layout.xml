@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/videoThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" /> <!-- Ajuste a altura conforme necessário -->
+        android:contentDescription="VideoThumbnail"
+        android:scaleType="centerCrop"
+
+    <TextView
+        android:id="@+id/videoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoThumbnail"
+        android:textSize="16sp"
+        android:paddingTop="4dp"
+        android:text="Título do vídeo"
+        tools:ignore="HardcodedText" /> <!-- Considerar o uso de strings.xml -->
+</RelativeLayout>

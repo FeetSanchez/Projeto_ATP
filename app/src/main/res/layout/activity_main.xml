@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Botões para Disciplinas Centralizados e Ordenados -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonArts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artes"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonBiology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biologia"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonChemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Química"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educação Física"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Língua Inglesa"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonGeography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geografia"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="História"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matemática"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonPortuguese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Língua Portuguesa"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonPhilosophy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filosofia"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonPhysics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Física"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonSociology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sociologia"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonSpanish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Língua Espanhola"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <!-- Botões de Navegação -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/buttonGoToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir para Home"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonGoToSubjects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir para Disciplinas"
+            tools:ignore="HardcodedText"
+            android:layout_marginStart="16dp"/>
+
+    </LinearLayout>
+
+    <!-- RecyclerView para exibir vídeos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:visibility="gone" /> <!-- Ajuste a visibilidade conforme necessário -->
+
+</LinearLayout>

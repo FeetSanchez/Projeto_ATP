@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_portugues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Português"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_literatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Literatura"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_portugues"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_lingua_estrangeira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Língua Estrangeira"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_literatura"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_artes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artes"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_lingua_estrangeira"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_educacao_fisica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Educação Física"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_artes"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_tecnologias_informacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tecnologias da Informação e Comunicação"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_educacao_fisica"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

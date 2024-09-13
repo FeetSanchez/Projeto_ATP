@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_ciencias_natureza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ciências da Natureza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_ciencias_humanas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ciências Humanas"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_ciencias_natureza"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_linguagens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linguagens, Códigos e suas Tecnologias"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_ciencias_humanas"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button_matematica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matemática e suas Tecnologias"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_linguagens"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

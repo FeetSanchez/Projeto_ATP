@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projetoatp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <!-- Definindo a LoginActivity como a tela inicial -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Outras atividades -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+
+        <activity
+            android:name=".SubjectsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".VideoListActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".HumanSciencesActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".LanguagesActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MathematicsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".SciencesNatureActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".BancoProvasActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ViewProvaActivity"
+            android:exported="true" />
+
+        <!-- Comentado para referência futura -->
+        <!-- <activity android:name=".PortugueseActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".LiteratureActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".ForeignLanguageActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".ArtsActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".PhysicalEducationActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".ICTActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".BiologyActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".ChemistryActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".PhysicsActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".HistoryActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".GeographyActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".PhilosophyActivity" android:exported="true" /> -->
+        <!-- <activity android:name=".SociologyActivity" android:exported="true" /> -->
+
+    </application>
+
+</manifest>
